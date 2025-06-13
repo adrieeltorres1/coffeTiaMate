@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Header = () => {
     return (
         <>
@@ -5,8 +7,8 @@ const Header = () => {
                 <div className="w-full max-w-7xl mx-auto h-full flex items-center justify-between">
                     <div className="flex items-center gap-16">
                         <img src="/imgs/Logo_Horizontal_01.png" alt="Logo Tiamate" />
-                        <a href="">Início</a>
-                        <a href="/nossocafe">Nosso Café</a>
+                        <Link to="/">Início</Link>
+                        <Link to="/nosso-cafe">Nosso café</Link>
                         <a href="">Notícias</a>
                         <a href="">Contato</a>
                         <a href="">Cardápio</a>
