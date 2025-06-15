@@ -9,9 +9,9 @@ const Header = () => {
                         <img src="/imgs/Logo_Horizontal_01.png" alt="Logo Tiamate" />
                         <Link to="/">Início</Link>
                         <Link to="/nosso-cafe">Nosso café</Link>
-                        <a href="">Notícias</a>
-                        <a href="">Contato</a>
-                        <a href="">Cardápio</a>
+                        <Link to="/noticias">Notícias</Link>
+                        <Link to="/contato">Contato</Link>
+                        <Link to="/cardapio">Cardápio</Link>
                     </div>
                     <div>
                         <button className="bg-[#C7794A] h-12 w-56 rounded-md text-[#3B2416] text-lg font-semibold">Seja um Franqueado</button>
