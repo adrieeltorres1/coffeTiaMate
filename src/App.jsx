@@ -4,6 +4,7 @@ import NossoCafe from "./pages/NossoCafe";
 import Noticias from "./pages/Noticias";
 import Contato from "./pages/Contato";
 import Cardapio from "./pages/Cardapio";
+import Inicio from "./pages/Inicio";
 
 const App = () => {
   return (  
@@ -11,7 +12,7 @@ const App = () => {
       <BrowserRouter>
        <Header/>
         <Routes>
-          <Route path="/"/>
+          <Route path="/" element={<Inicio />}/>
           <Route path="nosso-cafe" element={<NossoCafe />}/>
           <Route path="noticias" element={<Noticias />}/>
           <Route path="contato" element={<Contato />}/>
